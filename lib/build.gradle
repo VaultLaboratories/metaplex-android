@@ -101,8 +101,8 @@ publishing {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/MirekR/metaplex-android"
             credentials {
-                username = System.getenv("USERNAME")
-                password = System.getenv("TOKEN")
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
