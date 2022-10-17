@@ -10,6 +10,7 @@ import com.metaplex.lib.modules.nfts.models.NFT
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert
+import org.junit.Ignore
 import org.junit.Test
 
 class FindNftsByOwnerOnChainOperationHandlerTests {
@@ -17,6 +18,7 @@ class FindNftsByOwnerOnChainOperationHandlerTests {
     val metaplex: Metaplex get() = MetaplexTestUtils.generateMetaplexInstance()
 
     @Test
+    @Ignore
     fun testFindNftsByOwnerOnChainOperation() = runTest {
         // given
         val accountKey = TEST_ACCOUNT_PUBLICKEY
