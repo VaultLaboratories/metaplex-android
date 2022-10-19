@@ -4,6 +4,14 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            name = "GitHubPackages-Metaplex"
+            url = "https://maven.pkg.github.com/MirekR/SolanaKT"
+            credentials {
+                username = "VaultLaboratories"
+                password = "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"
+            }
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"
