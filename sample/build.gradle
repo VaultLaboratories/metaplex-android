@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId "com.metaplex.sample"
-        minSdk 27
+        minSdk 21
         targetSdk 32
         versionCode 1
-        versionName "1.0"
+        versionName "1.2.0.F1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -36,7 +36,7 @@ android {
 
 dependencies {
     implementation project(path: ':lib')
-    implementation 'com.github.metaplex-foundation:SolanaKT:1.2'
+    implementation 'com.solana:solana:1.2.F2'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.6.0'

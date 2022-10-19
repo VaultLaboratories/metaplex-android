@@ -4,6 +4,15 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
+
+        maven {
+            name = "GitHubPackages-Metaplex"
+            url = "https://maven.pkg.github.com/MirekR/SolanaKT"
+            credentials {
+                username = "VaultLaboratories"
+                password = "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"
+            }
+        }
     }
 }
 rootProject.name = "Metaplex"
