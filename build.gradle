@@ -5,11 +5,11 @@ buildscript {
         google()
         mavenCentral()
         maven {
-            name = "GitHubPackages-Metaplex"
+            name = "GitHubPackages"
             url = "https://maven.pkg.github.com/MirekR/SolanaKT"
             credentials {
-                username = "VaultLaboratories"
-                password = "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"
+                username = "MirekR"
+                password = "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"
             }
         }
     }
