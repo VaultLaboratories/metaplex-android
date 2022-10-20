@@ -10,7 +10,7 @@ dependencyResolutionManagement {
             url = "https://maven.pkg.github.com/MirekR/SolanaKT"
             credentials {
                 username = "VaultLaboratories"
-                password = "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"
+                password = "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"
             }
         }
     }

@@ -13,7 +13,7 @@ android {
         minSdk 21
         targetSdk 31
         versionCode 4
-        versionName "1.2.0.F2"
+        versionName "1.2.55"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -52,7 +52,7 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0'
 
     // SolanaKT
-    implementation 'com.solana:solana:1.2.F2'
+    implementation 'com.solana:solana:1.2.55'
 
     // Moshi
     implementation "com.squareup.moshi:moshi:1.12.0"
