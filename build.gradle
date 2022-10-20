@@ -8,7 +8,7 @@ buildscript {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/MirekR/SolanaKT"
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
+                username = MirekR
                 password = System.getenv("GITHUB_TOKEN")
             }
         }
