@@ -9,8 +9,8 @@ dependencyResolutionManagement {
             name = "GitHubPackages-Metaplex"
             url = "https://maven.pkg.github.com/MirekR/SolanaKT"
             credentials {
-                username = "VaultLaboratories"
-                password = "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"
+                username = "MirekR"
+                password =  System.getenv("GITHUB_TOKEN")
             }
         }
     }
