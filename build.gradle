@@ -9,7 +9,7 @@ buildscript {
             url = "https://maven.pkg.github.com/MirekR/SolanaKT"
             credentials {
                 username = "MirekR"
-                password = System.getenv("GRADLE_GITHUB_TOKEN")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
