@@ -52,7 +52,7 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0'
 
     // SolanaKT
-    implementation 'com.solana:solana:1.2.55'
+    implementation 'com.solana:solana:1.0.3'
 
     // Moshi
     implementation "com.squareup.moshi:moshi:1.12.0"
@@ -101,7 +101,7 @@ publishing {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/VaultLaboratories/metaplex-android"
             credentials {
-                username = "VaultLaboratories"
+                username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
             }
         }
