@@ -61,7 +61,7 @@ jobs:
         run: npx amman start
           
       - name: Run Tests
-        run: ./gradlew test
+        run: ./gradlew test -DgithubToken=${{ secrets.GITHUB_TOKEN }}
         env:
-          GITHUB_ACTOR: ${{ secrets.GRADLE_GITHUB_ACTOR }}
+          GITHUB_ACTOR: "VaultLaboratories"
           GITHUB_TOKEN: ${{ secrets.GRADLE_GITHUB_TOKEN }}
