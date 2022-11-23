@@ -99,7 +99,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/MirekR/metaplex-android"
+            url = "https://maven.pkg.github.com/VaultLaboratories/metaplex-android"
             credentials {
                 username = "VaultLaboratories"
                 password = System.getenv("GITHUB_TOKEN")

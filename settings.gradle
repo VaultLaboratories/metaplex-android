@@ -7,7 +7,7 @@ dependencyResolutionManagement {
 
         maven {
             name = "GitHubPackages-Metaplex"
-            url = "https://maven.pkg.github.com/MirekR/SolanaKT"
+            url = "https://maven.pkg.github.com/VaultLaboratories/SolanaKT"
             credentials {
                 username = "VaultLaboratories"
                 password =  System.getenv("GITHUB_TOKEN")
